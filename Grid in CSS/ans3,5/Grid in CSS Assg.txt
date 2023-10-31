@@ -1,0 +1,8 @@
+﻿Grid in CSS Assignment
+Assignment Question 
+
+
+Ans 3: Grid-auto-row-   It set a size of row in the grid container.
+      Grid-auto-column- this property use to set the size of column in the container.
+Ans5- justify-item i use is the grid container.
+Justify-self is use in item of grid container items.

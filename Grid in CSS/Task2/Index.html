@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 100px 200px;
+            gap: 10px;
+            grid-template-areas:
+                "header header main"
+                "sidebar footer main"
+               
+        }
+
+        .grid-item {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .a {
+            grid-area: header;
+        }
+
+        .b {
+            grid-area: sidebar;
+        }
+
+        .c {
+            grid-area: main;
+        }
+
+        .d {
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item a">A</div>
+        <div class="grid-item b">B</div>
+        <div class="grid-item c">C</div>
+        <div class="grid-item d">D</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+    margin: 10px;
+    padding: 0;
+  }
+  .main1 {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(180, 220, 207);
+    border: 1px solid black;
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    justify-items:end;
+  }
+  .main2 {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(180, 220, 207);
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+  }
+  .box1 {
+    background-color: blanchedalmond;
+     justify-self: end;
+  }
+  .box2 {
+    background-color: burlywood;
+  }
+  .box3 {
+    background-color: rgb(160, 139, 162);
+  }
+  .box4 {
+    background-color: darkgoldenrod;
+  }
+  .box5 {
+    background-color: cadetblue;
+  }
+  .box6 {
+    background-color: chartreuse;
+  }
